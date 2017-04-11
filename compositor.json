@@ -1,0 +1,92 @@
+{
+  "name": "spielhaus/spielhaus",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/spielhaus/spielhaus",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "spielhaus",
+      "subhead": null,
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "spielhaus: ",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "spielhaus",
+          "repo": "spielhaus"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h2>Welcome to GitHub Pages</h2>\n<p>You can use the <a href=\"https://github.com/spielhaus/spielhaus/edit/master/README.md\">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>\n<p>Whenever you commit to this repository, GitHub Pages will run <a href=\"https://jekyllrb.com/\">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>\n<h3>Markdown</h3>\n<p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>\n<pre>Syntax highlighted code block\n\n<span class=\"hljs-section\"># Header 1</span>\n<span class=\"hljs-section\">## Header 2</span>\n<span class=\"hljs-section\">### Header 3</span>\n\n<span class=\"hljs-bullet\">- </span>Bulleted\n<span class=\"hljs-bullet\">- </span>List\n\n<span class=\"hljs-bullet\">1. </span>Numbered\n<span class=\"hljs-bullet\">2. </span>List\n\n<span class=\"hljs-strong\">**Bold**</span> and <span class=\"hljs-emphasis\">_Italic_</span> and <span class=\"hljs-code\">`Code`</span> text\n\n[<span class=\"hljs-string\">Link</span>](<span class=\"hljs-link\">url</span>) and ![<span class=\"hljs-string\">Image</span>](<span class=\"hljs-link\">src</span>)</pre><p>For more details see <a href=\"https://guides.github.com/features/mastering-markdown/\">GitHub Flavored Markdown</a>.</p>\n<h3>Jekyll Themes</h3>\n<p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href=\"https://github.com/spielhaus/spielhaus/settings\">repository settings</a>. The name of this theme is saved in the Jekyll <code>_config.yml</code> configuration file.</p>\n<h3>Support or Contact</h3>\n<p>Having trouble with Pages? Check out our <a href=\"https://help.github.com/categories/github-pages-basics/\">documentation</a> or <a href=\"https://github.com/contact\">contact support</a> and we&#x2019;ll help you sort it out.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/spielhaus/spielhaus",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/spielhaus",
+          "text": "spielhaus"
+        }
+      ]
+    }
+  ]
+}
